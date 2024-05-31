@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Pro - Boost Your Efficiency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Productivity Pro</h1>
+            <p>Your journey to excellence begins here.</p>
+            <button class="cta-button" onclick="scrollToSection('cta')">Get Started</button>
+        </div>
+        <img src="main.jpg" alt="Hero Image" class="hero-image">
+    </header>
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <img src="tasskmanagement.jpg" alt="Feature One">
+                    <h3>Task Management</h3>
+                    <p>Organize and prioritize your tasks with ease. Stay on top of your workload and meet your deadlines.</p>
+                </div>
+                <div class="feature">
+                    <img src="projecttracker.jpg" alt="Feature Two">
+                    <h3>Schedule Planner</h3>
+                    <p>Plan your day, week, and month with our intuitive schedule planner. Never miss an important event.</p>
+                </div>
+                <div class="feature">
+                    <img src="planner.jpg" alt="Feature Three">
+                    <h3>Project Tracking</h3>
+                    <p>Track the progress of your projects and collaborate with your team seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-carousel">
+                <button class="carousel-button" onclick="prevTestimonial()">&#10094;</button>
+                <div class="testimonial" id="testimonial1">
+                    <p>"Productivity Pro has revolutionized the way I work. My efficiency has doubled!"</p>
+                    <span>- Ayush Paliwal, Project Manager</span>
+                </div>
+                <div class="testimonial" id="testimonial2">
+                    <p>"The best tool I've used for task management and scheduling. Highly recommended!"</p>
+                    <span>- Shubham Athale, Software Developer</span>
+                </div>
+                <div class="testimonial" id="testimonial3">
+                    <p>"A game-changer for team collaboration. Our projects are always on track now."</p>
+                    <span>- Manav Jain, Team Lead</span>
+                </div>
+                <button class="carousel-button" onclick="nextTestimonial()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    <section class="cta" id="cta">
+        <div class="container">
+            <h2>Ready to Take the Next Step?</h2>
+            <p>Sign up for Productivity Pro now and transform your workflow.</p>
+            <button class="cta-button" onclick="signUp()">Sign Up Now</button>
+        </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
